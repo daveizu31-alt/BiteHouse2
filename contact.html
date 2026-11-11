@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Sacramento&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="head">Bite House</div>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    </header>
+
+    <main>
+        <h1 class="second">Contact Us</h1>
+        <p>Have questions or feedback? We'd love to hear from you!</p>
+        <form id="contact-form" novalidate>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="Name" required>
+            <p class="error" id="name-error"></p>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="Email" required>
+            <p class="error" id="email-error"></p>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <p class="error" id="message-error"></p>
+
+            <button class="btn" type="submit">Send Message</button>
+            <p id="form-status"></p>
+        </form>
+    </main>
+
+
+
+     <footer class="site-footer">
+        <div class="footer-grid">
+            <div>
+            <h3>BiteHouse</h3>
+            <p>Where every bite feels like home.</p>
+            </div>
+           
+            <div>
+                <h3>Visit Us</h3>
+                <p>24 Crest Street, Independence Layout, Enugu, Nigeria.</p>
+                <p>Open daily, 10:00am to 22:00pm</p>
+            </div>
+            <div>
+                <h3>Get in Touch</h3>
+                <p>Email: bitehouse77@gmail.com</p>
+                <p>Phone: +234 123 456 7890</p>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 BiteHouse. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
